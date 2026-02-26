@@ -35,7 +35,7 @@ public class DataInitializer implements CommandLineRunner {
     h1.setName("The Grand Palace");
     h1.setLocation("Mumbai, India");
     h1.setRating(4.8);
-    h1.setImageUrl("https://example.com/images/grand-palace.jpg");
+    h1.setImageUrl("/hotel-images/grand-palace.jpg");
     List<Room> rooms1 = new ArrayList<>();
     rooms1.add(createRoom(2500.0, 20, 15, "Standard", "WiFi, AC, TV", h1));
     rooms1.add(createRoom(4500.0, 10, 7, "Deluxe", "WiFi, AC, TV, Mini Fridge, Breakfast", h1));
@@ -48,7 +48,7 @@ public class DataInitializer implements CommandLineRunner {
     h2.setName("Taj Lakefront");
     h2.setLocation("Udaipur, India");
     h2.setRating(4.9);
-    h2.setImageUrl("https://example.com/images/taj-lakefront.jpg");
+    h2.setImageUrl("/hotel-images/taj-lakefront.jpg");
     List<Room> rooms2 = new ArrayList<>();
     rooms2.add(createRoom(3000.0, 25, 20, "Standard", "WiFi, AC", h2));
     rooms2.add(createRoom(5500.0, 12, 8, "Deluxe", "WiFi, AC, TV, Lake View", h2));
@@ -61,7 +61,7 @@ public class DataInitializer implements CommandLineRunner {
     h3.setName("Ocean Breeze Resort");
     h3.setLocation("Goa, India");
     h3.setRating(4.5);
-    h3.setImageUrl("https://example.com/images/ocean-breeze.jpg");
+    h3.setImageUrl("/hotel-images/ocean-breeze.jpg");
     List<Room> rooms3 = new ArrayList<>();
     rooms3.add(createRoom(1800.0, 30, 22, "Standard", "WiFi, Fan", h3));
     rooms3.add(createRoom(3500.0, 15, 10, "Deluxe", "WiFi, AC, TV, Beach Access", h3));
@@ -74,7 +74,7 @@ public class DataInitializer implements CommandLineRunner {
     h4.setName("Mountain View Lodge");
     h4.setLocation("Shimla, India");
     h4.setRating(4.3);
-    h4.setImageUrl("https://example.com/images/mountain-view.jpg");
+    h4.setImageUrl("/hotel-images/mountain-view.jpg");
     List<Room> rooms4 = new ArrayList<>();
     rooms4.add(createRoom(2000.0, 18, 14, "Standard", "Heater, TV", h4));
     rooms4.add(createRoom(3800.0, 8, 6, "Deluxe", "Heater, WiFi, TV, View", h4));
@@ -87,7 +87,7 @@ public class DataInitializer implements CommandLineRunner {
     h5.setName("Royal Heritage Inn");
     h5.setLocation("Jaipur, India");
     h5.setRating(4.6);
-    h5.setImageUrl("https://example.com/images/royal-heritage.jpg");
+    h5.setImageUrl("/hotel-images/royal-heritage.jpg");
     List<Room> rooms5 = new ArrayList<>();
     rooms5.add(createRoom(2200.0, 22, 18, "Standard", "AC, TV", h5));
     rooms5.add(createRoom(4000.0, 10, 7, "Deluxe", "AC, WiFi, TV, Heritage Decor", h5));
@@ -100,7 +100,7 @@ public class DataInitializer implements CommandLineRunner {
     h6.setName("Sunrise Beach Hotel");
     h6.setLocation("Chennai, India");
     h6.setRating(4.2);
-    h6.setImageUrl("https://example.com/images/sunrise-beach.jpg");
+    h6.setImageUrl("/hotel-images/sunrise-beach.jpg");
     List<Room> rooms6 = new ArrayList<>();
     rooms6.add(createRoom(1500.0, 35, 28, "Standard", "WiFi, AC", h6));
     rooms6.add(createRoom(3000.0, 15, 12, "Deluxe", "WiFi, AC, TV, Breakfast", h6));
@@ -113,7 +113,7 @@ public class DataInitializer implements CommandLineRunner {
     h7.setName("City Lights Hotel");
     h7.setLocation("Delhi, India");
     h7.setRating(4.4);
-    h7.setImageUrl("https://example.com/images/city-lights.jpg");
+    h7.setImageUrl("/hotel-images/city-lights.jpg");
     List<Room> rooms7 = new ArrayList<>();
     rooms7.add(createRoom(2800.0, 28, 20, "Standard", "WiFi, AC, TV, Desk", h7));
     rooms7.add(createRoom(5000.0, 14, 10, "Deluxe", "WiFi, AC, TV, Desk, City View", h7));
@@ -126,7 +126,7 @@ public class DataInitializer implements CommandLineRunner {
     h8.setName("Backwater Paradise");
     h8.setLocation("Kochi, India");
     h8.setRating(4.7);
-    h8.setImageUrl("https://example.com/images/backwater-paradise.jpg");
+    h8.setImageUrl("/hotel-images/backwater-paradise.jpg");
     List<Room> rooms8 = new ArrayList<>();
     rooms8.add(createRoom(2100.0, 20, 16, "Standard", "Fan, WiFi", h8));
     rooms8.add(createRoom(4200.0, 10, 7, "Deluxe", "AC, WiFi, TV, Backwater View", h8));
@@ -139,7 +139,7 @@ public class DataInitializer implements CommandLineRunner {
     h9.setName("Snow Peak Resort");
     h9.setLocation("Manali, India");
     h9.setRating(4.5);
-    h9.setImageUrl("https://example.com/images/snow-peak.jpg");
+    h9.setImageUrl("/hotel-images/snow-peak.jpg");
     List<Room> rooms9 = new ArrayList<>();
     rooms9.add(createRoom(1900.0, 16, 12, "Standard", "Heater, Blanket", h9));
     rooms9.add(createRoom(3600.0, 8, 5, "Deluxe", "Heater, WiFi, TV", h9));
@@ -152,7 +152,7 @@ public class DataInitializer implements CommandLineRunner {
     h10.setName("Golden Sands Resort");
     h10.setLocation("Pune, India");
     h10.setRating(4.1);
-    h10.setImageUrl("https://example.com/images/golden-sands.jpg");
+    h10.setImageUrl("/hotel-images/golden-sands.jpg");
     List<Room> rooms10 = new ArrayList<>();
     rooms10.add(createRoom(1600.0, 24, 20, "Standard", "WiFi, AC", h10));
     rooms10.add(createRoom(3200.0, 12, 9, "Deluxe", "WiFi, AC, TV", h10));
